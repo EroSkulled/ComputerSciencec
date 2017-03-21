@@ -35,12 +35,12 @@ class student_time_runner
   System.out.println("convert to time2 standard time: " + time2.convert());
   System.out.println("time2: " + time2 + "\n");
 
-  
+
   Time time3 = new Time(5, 17);
   System.out.println("time3: " + time3);
   System.out.print("convert time3: ");
   System.out.println(time3.convert());
-  
+
   Time time4 = new Time(12, 15);
   System.out.println("\ntime4: " + time4);
   System.out.println("convert time4: " + time4.convert());
@@ -48,11 +48,11 @@ class student_time_runner
   Time time5 = new Time(0, 15);
   System.out.println("\ntime5: " + time5);
   System.out.println("convert time5: " + time5.convert());
-  
+
   Time time6 = new Time(24, 15);
   System.out.println("\ntime6: " + time6);
   System.out.println("convert time6: " + time6.convert());
-  
+
   Time time7 = new Time(23,59);
   System.out.println("\ntime7: " + time7);
   System.out.println("convert time7: " + time7.convert());
