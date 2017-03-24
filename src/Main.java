@@ -2,13 +2,30 @@ import java.util.Scanner;
 import java.util.ArrayList;
 //replace the class name main into Main
 class Main {
-    public static void main(String[] args) {
-        System.out.print(21/5);
-    }
-    public static double doStuff(int a) {
-        return a/2;
-    }
-    public static double doStuff(double val) {
-        return val/10;
+    public class Main {
+        private int values [];
+        private double average;
+
+        public WhatsIt () {
+            values = new int[10];
+            findAvg();
+        }
+
+        public WhatsIt (int n []) {
+            values = n;
+            findAvg();
+        }
+
+        public void findAvg () {
+            double sum = 0;
+            for (int i = 0; i < values.length; i++) {
+                sum += values[i];
+            }
+            average = 1.0 * sum / values.length;
+        }
+
+        public String toString() {
+            return "Average: " + average + " Length: " + values.length;
+        }
     }
 }
