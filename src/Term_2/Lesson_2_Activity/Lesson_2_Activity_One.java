@@ -10,7 +10,7 @@ class Lesson_2_Activity_One {
         String temp = " ";
         ArrayList<String> array = new ArrayList();
 
-        System.out.println("Please enter words, enter STOP to stop the loop.");
+        System.out.println("Please enter $$, enter STOP to stop the loop.");
         temp = s.nextLine();
 
         while (!temp.equals("STOP")){

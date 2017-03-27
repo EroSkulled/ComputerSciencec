@@ -1,8 +1,8 @@
 package Term_1.Lesson_30_Activity;/*
  * Lesson 30 Coding Activity 
- * Due to a problem with a scanner an array of words was created 
+ * Due to a problem with a scanner an array of $$ was created
  * with spaces in incorrect places. Write the code to process the 
- * list of words and trim any spaces out of the words.
+ * list of $$ and trim any spaces out of the $$.
  *
  * So if the list contains:
  *      {"every", " near ing ", " checking", "food ", "stand", "value "}
@@ -12,7 +12,7 @@ package Term_1.Lesson_30_Activity;/*
  *         
  * Note that this activity does not require you to print anything. 
  * Your code should end with the array list still declared and
- * containing the resulting words.
+ * containing the resulting $$.
  * 
  */
 

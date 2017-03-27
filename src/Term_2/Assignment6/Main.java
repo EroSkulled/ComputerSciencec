@@ -5,39 +5,39 @@ import java.util.Scanner;
  * Created by Akatsuki on 3/24/17.
  */
 public class Main {
-    public static String word;
-    public static ArrayList<String> words;
+    public static String $;
+    public static ArrayList<String> $$;
 
     public static void main(String[] var0) {
-        Scanner s = new Scanner(System.in);
+        Scanner $$$ = new Scanner(System.in);
         System.out.println("Enter the next name:");
-        word = s.nextLine().toLowerCase();
-        words= new ArrayList<String>();
-        while (!word.equals("end")) {
-            words.add(word);
-            sort();
+        $ = $$$.nextLine().toLowerCase();
+        $$ = new ArrayList<String>();
+        while (!$.equals("end")) {
+            $$.add($);
+            $$$$$$$$$$();
             System.out.println("Enter the next name:");
-            word = s.nextLine().toLowerCase();
+            $ = $$$.nextLine().toLowerCase();
         }
         System.out.print("[");
-        for (String i:
-             words) {
-            System.out.print(i.substring(0,1).toUpperCase() + i.substring(1).toLowerCase()+ ", ");
+        for (String $$$$$$:
+                $$) {
+            System.out.print($$$$$$.substring(0,1).toUpperCase() + $$$$$$.substring(1).toLowerCase()+ ", ");
         }
         System.out.print("]");
 
     }
-    public static void sort() {
-        for (int i = 0; i < words.size(); i++)
+    public static void $$$$$$$$$$() {
+        for (int i = 0; i < $$.size(); i++)
         {
-            for(int s = i; s < words.size(); s++)
+            for(int s = i; s < $$.size(); s++)
             {
-                if (words.get(i).compareTo(words.get(s)) > 0)
+                if ($$.get(i).compareTo($$.get(s)) > 0)
                 {
-                    String iTemp = words.get(i);
-                    String sTemp = words.get(s);
-                    words.set(i, sTemp);
-                    words.set(s, iTemp);
+                    String $$$$ = $$.get(i);
+                    String $$$$$ = $$.get(s);
+                    $$.set(i, $$$$$);
+                    $$.set(s, $$$$);
                 }
             }
         }

@@ -1,9 +1,9 @@
 package Term_1.Lesson_29_Activities;/*
  * Lesson 29 Coding Activity 1
  * A student wants an algorithm to find the hardest spelling
- * word in a list of vocabulary. They define hardest by the longest word.
- * Write the code to find the longest word stored in an array of Strings called list.
- * If several words have the same length it should print the first word 
+ * $ in a list of vocabulary. They define hardest by the longest $.
+ * Write the code to find the longest $ stored in an array of Strings called list.
+ * If several $$ have the same length it should print the first $
  * in list with the longest length.
  * For example, if the following list were declared:
  * 
